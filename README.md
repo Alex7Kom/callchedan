@@ -62,7 +62,7 @@ By default the server reads raw POST input, but you can pass to it JSON string:
 echo $server->handle('{"jsonrpc": "2.0", "method": "subtract", "params": [42, 23], "id": 1}');
 ```
 
-`handle` method returns result string if not a notification, that you can `echo` right away or do whatever you want with it to transfer it to a client.
+If request is not a notification, than `handle` method returns result JSON string, that you can `echo` right away or do whatever you want with it to transfer it to a client.
 
 ## Client
 
