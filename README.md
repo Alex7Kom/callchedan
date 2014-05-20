@@ -1,6 +1,6 @@
 # Callchedan [kɔːlʧedan]
 
-Simple (not to say primitive) and lightweight transport-agnoctic client and server implementations of [JSON-RPC 2.0](http://www.jsonrpc.org/specification) (only) protocol for PHP.
+Simple (not to say primitive) and lightweight transport-agnostic client and server implementations of [JSON-RPC 2.0](http://www.jsonrpc.org/specification) (only) protocol for PHP.
 
 # Usage
 
