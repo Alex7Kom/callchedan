@@ -74,7 +74,7 @@ require 'callchedan/lib/client.php';
 $client = new Callchedan\Client('http://127.0.0.1:5080/');
 ```
 
-Instead of URL you can pass a transport object that will be used to make calls to server.
+Instead of URL you can pass a transport object that will be used to make calls to the server.
 
 # Methods
 
@@ -93,7 +93,7 @@ Immediate call to the server. Notification will not return any result. Any error
 ### addNotification(_string_ $method[, _array_ $params])
 ### _array_ batchRequest()
 
-Add calls or notifications to a batch, the do `batchRequest` to send the batch to the server.
+Add calls or notifications to a batch, than do `batchRequest` to send the batch to the server.
 `addCall` returns `id` that you can use to handle the result of `batchRequest`.
 
 # Tests
