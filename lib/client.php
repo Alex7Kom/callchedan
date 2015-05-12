@@ -25,7 +25,7 @@ class Transport {
     $this->scheme = $parsedUrl['scheme'];
     $this->host = $parsedUrl['host'];
 
-    if ($parsedUrl['path']) {
+    if (isset($parsedUrl['path'])) {
       $this->path = $parsedUrl['path'];
     } else {
       $this->path = '/';
